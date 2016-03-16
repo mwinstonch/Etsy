@@ -46,7 +46,7 @@ var HomeView = Backbone.View.extend({
 
 	_render: function(input){
 		var dataArray = input.get("results")
-		var gifUrlString = `<div id="head-holder"><div id="header"><a href=""id="logo" placeholder="Search for items or shops">Etsy</a><div id="search-box"><div id="search"><input type="text"id="search"></input></div><div id="go"><button>Search</button></div></div></div></div><div id="container">`
+		var gifUrlString = `<div id="head-holder"><div id="header"><a href=""id="logo" placeholder="Search for items or shops">Etsy</a><div id="search-box"><div id="search"><input type="text"id="search"></input></div><div id="go"><button>Press Enter...</button></div></div></div></div><div id="container">`
 		for (var i = 0; i < dataArray.length; i++) {
 			var img = dataArray[i].Images[0].url_fullxfull
 			console.log(img)
