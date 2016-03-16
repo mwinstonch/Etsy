@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+#itemBlock  {
+	height: 320px;
+	width: 300px;
+	display: inline-block;
+	text-align: left;
+
+	img {
+		width: 300px;
+		height: 300px;
+		display: block;
+	}
+
+	h1 {
+		display: block;
+	}
+
+}
+
+
+
+#logo {
+	text-decoration: none;
+	font-size: 38px;
+	font-family: serif;
+	color: #F56400;
+	border: none;
+}
+
+.gifScroll {
+
+}
