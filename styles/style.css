@@ -72,6 +72,14 @@ li {
      padding: 5px;
 }
 
+input:hover {
+    outline: none !important;
+}
+
+button:hover {
+    outline: none !important;
+}
+
 .item-view {
     background: #F5F5F1;
     border-top: 1px solid #C9CAC9;
@@ -151,6 +159,7 @@ button:active {
 #largeImage {
 	width: 400px;
 }
+
 #logo {
 	text-decoration: none;
 	font-size: 38px;
