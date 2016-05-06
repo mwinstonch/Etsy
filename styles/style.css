@@ -72,11 +72,11 @@ li {
      padding: 5px;
 }
 
-input:hover {
+input:active {
     outline: none !important;
 }
 
-button:hover {
+button:active {
     outline: none !important;
 }
 
