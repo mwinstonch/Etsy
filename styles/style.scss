@@ -3,25 +3,24 @@
 	margin: 0 auto;
 }
 
-#itemBlock  {
-	height: 320px;
-	width: 300px;
+.itemBlock  {
+    width: 242.5px;
+    height: 240px;
 	display: inline-block;
 	text-align: left;
+}
 
-	img {
-		width: 300px;
-		height: 300px;
-		display: block;
-	}
-
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
 	h1 {
 		display: block;
 	}
 
 }
 
-
+.ellipsis { text-overflow: ellipsis;  }
 
 #logo {
 	text-decoration: none;

@@ -3,8 +3,31 @@
 	margin: 0 auto;
 }
 
-body {
+html {
 	font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.backb {
+    display: block;
+    margin: 0;
+}
+
+#cost {
+    float: right;
+    font-size: 13px;
+    color: green;
 }
 
 #container {
@@ -14,15 +37,44 @@ body {
 	background: #F5F5F1;
 }
 
+#category-bar {
+    border-top: 1px solid #C9CAC9;
+    width: 100%;
+    height: 50px;
+}
+
 #description {
-	margin-left: 30px;
 	max-width: 500px;
-	display: inline-block;
-	vertical-align: top;
+    vertical-align: top;
+}
+
+#description-contains {
+    margin-left: 30px;
+    display: inline-block;
+    max-width: 500px;
+    vertical-align: top;
+}
+
+#detailContainer {
+    text-align: left;
+    height: 100vh;
+}
+
+#front {
+    text-align: center;
 }
 
 .gifScroll {
 
+}
+
+.info-holds {
+     padding: 5px;
+}
+
+.item-view {
+    background: #F5F5F1;
+    border-top: 1px solid #C9CAC9;
 }
 
 button {
@@ -38,6 +90,8 @@ button {
 button:active {
 	border-left: none;
 }
+
+.ellipsis { text-overflow: ellipsis;}
 
 #go {
 	left: 214px;
@@ -59,12 +113,26 @@ button:active {
 	display: inline-block;
 }
 
-#itemBlock img {
-	width: 300px;
-	height: 300px;
-	display: block;
+
+
+.itemBlock {
+    width: 244.5px;
 	background: #fff;
-	/* margin: 0 auto; */
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+    height: 240px;
+    background: white;
+    border-radius: 3px;
+    border: solid rgba(128, 128, 128, 0.61) 1px;
+}
+
+.list-img {
+    height: 190px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 #itemBlock {
@@ -73,6 +141,7 @@ button:active {
 	width: 300px;
 	display: inline-block;
 	text-align: left;
+    border: solid rgba(128, 128, 128, 0.58) 1px;
 }
 
 #itemBlock h1 {
@@ -89,11 +158,34 @@ button:active {
 	color: #F56400;
 	border: none;
 	margin: 0 auto;
+    letter-spacing: 1px;
 }
 
-#scrollDescription {
-	display: block;
+.madeBy {
+     font-size: 13px;
+     color: rgba(0, 0, 0, 0.74);
+}
 
+
+.categories {
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    line-height: 50px;
+    margin-right: 5%;
+}
+
+a.categories:hover {
+    color: #222;
+}
+
+.scrollDescription {
+    font-size: 14px;
+	display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 3px;
 }
 
 #search-box {
