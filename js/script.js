@@ -28,6 +28,7 @@ var HomeView = Backbone.View.extend({
 	events: {
 		"click img": "_triggerDetailView",
 		'keydown input':'_searchByKeyword'
+        "click button": "_searchByKeyword"
 	},
 
 	_searchByKeyword: function (keyEvent){
@@ -99,9 +100,7 @@ var HomeView = Backbone.View.extend({
 		}
 		console.log(dataArray)
 		this.el.innerHTML = gifUrlString + "</div>"
-
 	}
-
 })
 
 var DetailView = Backbone.View.extend({
