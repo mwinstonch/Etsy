@@ -27,7 +27,7 @@ var HomeView = Backbone.View.extend({
 
 	events: {
 		"click img": "_triggerDetailView",
-		'keydown input':'_searchByKeyword'
+		'keydown input':'_searchByKeyword',
         "click button": "_searchByKeyword"
 	},
 
