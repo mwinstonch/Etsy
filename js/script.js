@@ -88,8 +88,9 @@ var HomeView = Backbone.View.extend({
         </ul>
         </div>
         <img class="backgroundPic" src="./Etspic.jpg" />
-        <h1 class="slogan">Whoever you are, find whatever you're into.</h2>
-    </div><div class="item-view">`
+        <h1 class="sloganTop">Whoever you are, </h1>
+        <h1 class="sloganBottom">find whatever you're into.</h1>
+        </div><div class="item-view">`
 		for (var i = 0; i < dataArray.length - 1; i++) {
 			var img = dataArray[i].Images[0].url_fullxfull
 			console.log(img)

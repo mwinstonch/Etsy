@@ -202,11 +202,21 @@ a.categories:hover {
     margin-bottom: 3px;
 }
 
-.slogan {
-    position: absolute; 
-    top:400px;
-    left:15px;
+.sloganTop {
+    width: 306px;
+    position: absolute;
+    top: 174px;
+    left: 48px;
+    color: white;
 }
+
+.sloganBottom {
+     color: white;
+     position: absolute;
+     top: 194px;
+     left: 48px;
+}
+
 #search-box {
 	height: 45px;
 	display: inline-block;
