@@ -87,6 +87,7 @@ var HomeView = Backbone.View.extend({
            </a>
         </ul>
         </div>
+        <img class="backgroundPic" src="https://img1.etsystatic.com/site-assets/vesta-homepage-headers-v3/thenorthwaystudio_262284442_2020x335.jpg" />
     </div><div class="item-view">`
 		for (var i = 0; i < dataArray.length - 1; i++) {
 			var img = dataArray[i].Images[0].url_fullxfull
