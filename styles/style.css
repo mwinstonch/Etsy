@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-    font-family: a;
 }
 
 html {
@@ -207,15 +206,17 @@ a.categories:hover {
     width: 306px;
     position: absolute;
     top: 174px;
-    left: 78px;
+    left: 48px;
     color: white;
+    font-family: a;
 }
 
 .sloganBottom {
      color: white;
      position: absolute;
      top: 216px;
-     left: 48px;
+     left: 78px;
+     font-family: a;
 }
 
 #search-box {
