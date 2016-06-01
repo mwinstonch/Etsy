@@ -202,7 +202,7 @@ a.categories:hover {
 }
 
 .sloganTop {
-    letter-spacing: .07vw;
+    letter-spacing: .06vw;
     position: absolute;
     font-size: 35px;
     top: 174px;
@@ -212,7 +212,7 @@ a.categories:hover {
 }
 
 .sloganBottom {
-    letter-spacing: .07vw;
+    letter-spacing: .06vw;
      color: white;
      font-size: 35px;
      position: absolute;
