@@ -207,13 +207,13 @@ a.categories:hover {
     font-size: 35px;
     top: 174px;
     left: 90px;
-    color: white;
+    color: rgba(245, 245, 245, 0.94);
     font-family: a;
 }
 
 .sloganBottom {
     letter-spacing: .06vw;
-     color: white;
+     color: rgba(245, 245, 245, 0.94);
      font-size: 35px;
      position: absolute;
      top: 221px;
