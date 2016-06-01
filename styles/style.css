@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
+    font-family: a;
 }
 
 html {
@@ -206,14 +207,14 @@ a.categories:hover {
     width: 306px;
     position: absolute;
     top: 174px;
-    left: 48px;
+    left: 78px;
     color: white;
 }
 
 .sloganBottom {
      color: white;
      position: absolute;
-     top: 194px;
+     top: 216px;
      left: 48px;
 }
 
