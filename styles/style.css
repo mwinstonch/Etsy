@@ -205,6 +205,7 @@ a.categories:hover {
 .sloganTop {
     width: 306px;
     position: absolute;
+    font-size: 35px;
     top: 174px;
     left: 48px;
     color: white;
@@ -213,6 +214,7 @@ a.categories:hover {
 
 .sloganBottom {
      color: white;
+     font-size: 35px;
      position: absolute;
      top: 216px;
      left: 78px;
