@@ -137,7 +137,7 @@ button:active {
     background: white;
     border-radius: 3px;
     border: solid rgba(128, 128, 128, 0.61) 1px;
-    box-shadow: .01vw .01vw 6px 0px rgba(0, 0, 0, 0.46);
+    box-shadow: .01vw .01vw 6px 0px rgba(0, 0, 0, 0.36);
 }
 
 .list-img {
