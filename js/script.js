@@ -55,7 +55,7 @@ var HomeView = Backbone.View.extend({
 					</input>
 				</div>
 				<div id="go">
-					<button>Press Enter...</button>
+					<button>Press Enter</button>
 				</div>
 			</div>
 		</div>
