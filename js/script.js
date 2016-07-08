@@ -137,7 +137,7 @@ var DetailView = Backbone.View.extend({
 							   <h3 id="cost">${imgObj.price} ${imgObj.currency_code}</h3>\
 							   <h4 id="quantity">Quantity: ${imgObj.quantity}</h4></div></div>`
 
-			this.el.innerHTML = htmlString
+		this.el.innerHTML = htmlString
 	 }
 })
 
