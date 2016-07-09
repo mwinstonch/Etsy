@@ -176,7 +176,6 @@ var Router = Backbone.Router.extend ({
 	initialize: function(){
 		Backbone.history.start()
 	}
-
 })
 
 var rtr = new Router()
